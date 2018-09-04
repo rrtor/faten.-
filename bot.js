@@ -1,12 +1,41 @@
-client.on('ready', () => {
-    console.log('I am ready!');
-});
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('pong');
-      }
-});
+console.log("Welcome Again !");
+ 
+ client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**
+
+السلام عليكم
+:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/4prW5HA
+
+حلمنه نوصل 2000 عضو**
+
+
+ ${member} .... الدعوه خاصه لك يا قلبي .
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**
+السلام عليكم
+:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/4prW5HA
+
+حلمنه نوصل 2000 عضو**
+
+
+ ${member} .... الدعوه خاصه لك يا قلبي .
+**`) 
+}).catch(console.error)
+})
 
 
 // THIS  MUST  BE  THIS  WAY
