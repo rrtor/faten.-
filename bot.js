@@ -10,8 +10,7 @@ console.log("Welcome Again !");
 **
 
 السلام عليكم
-:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/4prW5HA
-
+:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/3EBBSTd
 حلمنه نوصل 2000 عضو**
 
 
@@ -27,7 +26,7 @@ client.on("guildMemberAdd", member => {
 **
 **
 السلام عليكم
-:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/4prW5HA
+:earth_asia: طلب صغير تنورنه حياك كلان سحق:heart:  ,   https://discord.gg/3EBBSTd
 
 حلمنه نوصل 2000 عضو**
 
